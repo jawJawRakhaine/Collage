@@ -1,0 +1,16 @@
+.image {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.inner {
+    background-size: cover;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    transition: transform 1s linear;
+}
+.image:hover .inner {
+    transform: scale(1.2);
+}
